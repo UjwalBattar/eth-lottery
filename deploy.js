@@ -26,7 +26,7 @@ const deploy = async () => {
             from: accounts[0]
         });
 
-    console.log('Constract deployed to ', result.options.address);
+    console.log('Contract deployed to ', result.options.address);
 }
 
 // rinkeby,etherscan.io
